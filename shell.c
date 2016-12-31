@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-
+char cmd_list[] = {"ls","grep","cat","sort"};
+int getcmd(char*);
 int main()
 {
 	char *cmd = NULL;
